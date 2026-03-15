@@ -1,4 +1,5 @@
-const Cafe = require('../models/Cafe.models.js');
+const Cafe = require('../models/Cafe.models');
+const Review = require('../models/Review.models');
 
 exports.getNearbyCafes = async (req, res) => {
   try {
@@ -48,5 +49,25 @@ exports.createCafe = async (req, res) => {
     });
   } catch (error) {
     res.status(400).json({ error: 'Failed to create cafe' });
+  }
+};
+
+exports.getCafe = async (req, res) => {
+  try {
+    const cafe = await Cafe.findById(req.params.id);
+
+    if (!cafe) {
+      return res.status(404).json({ error: 'Cafe not found' });
+    }
+
+    const reviews = await Review.find({ cafe: req.params.id });
+
+    res.status(200).json({
+      success: true,
+      data: cafe,
+      reviews: reviews
+    });
+  } catch (error) {
+    res.status(500).json({ error: 'Server Error' });
   }
 };
