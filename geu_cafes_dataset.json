@@ -1,0 +1,93 @@
+[
+  {
+    "name": "Sagar",
+    "genre": "Cafe / Bakery",
+    "averageRating": 3.3,
+    "priceLevel": 2,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.9745065,
+        30.2808089
+      ]
+    }
+  },
+  {
+    "name": "Subba's corner",
+    "genre": "tibetan",
+    "averageRating": 4.8,
+    "priceLevel": 3,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.9722345,
+        30.2792328
+      ]
+    }
+  },
+  {
+    "name": "The Out Laws",
+    "genre": "Cafe / Bakery",
+    "averageRating": 4.4,
+    "priceLevel": 2,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.9967551,
+        30.2885211
+      ]
+    }
+  },
+  {
+    "name": "Dana Pani",
+    "genre": "Cafe / Bakery",
+    "averageRating": 4.2,
+    "priceLevel": 1,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.9964482,
+        30.2879421
+      ]
+    }
+  },
+  {
+    "name": "Delhi Darbar",
+    "genre": "Cafe / Bakery",
+    "averageRating": 4.7,
+    "priceLevel": 2,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.9999289,
+        30.2923174
+      ]
+    }
+  },
+  {
+    "name": "Shiv fast food",
+    "genre": "Cafe / Bakery",
+    "averageRating": 4.3,
+    "priceLevel": 3,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.9938313,
+        30.2714166
+      ]
+    }
+  },
+  {
+    "name": "Tuckshop agriculture",
+    "genre": "Cafe / Bakery",
+    "averageRating": 3.3,
+    "priceLevel": 2,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.0012259,
+        30.2721617
+      ]
+    }
+  }
+]
