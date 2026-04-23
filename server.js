@@ -1,12 +1,13 @@
 const express = require('express');
 const cors = require('cors');
 const dotenv = require('dotenv');
+
+dotenv.config();
+
 const connectDB = require('./config/db.js');
 const cafeRoutes = require('./routes/cafe.routes');
 const reviewRoutes = require('./routes/review.routes');
 const authRoutes = require('./routes/auth.routes');
-
-dotenv.config();
 
 connectDB();
 
