@@ -1,4 +1,12 @@
-# 🍔 Geobite
+<h1 align="center">Geobite</h1>
+<p align="center">
+    <img src="https://img.shields.io/badge/React-149ECA.svg?&style=for-the-badge&logo=react&logoColor=white" />
+    <img src="https://img.shields.io/badge/Express.js-000000.svg?&style=for-the-badge&logo=express&logoColor=white" />
+    <img src="https://img.shields.io/badge/Node.js-339933.svg?&style=for-the-badge&logo=nodedotjs&logoColor=white" />
+    <img src="https://img.shields.io/badge/MongoDB-47A248.svg?&style=for-the-badge&logo=mongodb&logoColor=white" />
+    <img src="https://img.shields.io/badge/Vite-646CFF.svg?&style=for-the-badge&logo=vite&logoColor=white" />
+    <img src="https://img.shields.io/badge/JWT-black.svg?&style=for-the-badge&logo=jsonwebtokens&logoColor=white" />
+</p>
 
 Geobite is an intelligent, full-stack location-based application built to help students discover cafes, bakeries, and restaurants specifically around the Graphic Era University (GEU).
 
@@ -6,22 +14,22 @@ The platform enforces campus-specific authentication and utilizes **cutting-edge
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-- **📍 Geospatial Searching**: Uses MongoDB's powerful `2dsphere` indexes and `$near` queries to automatically find cafes within a configurable radius of the user's live GPS coordinates.
-- **🤖 AI Smart Search (Groq Integration)**: Integrated with the blazing-fast Groq API running `llama-3.1-8b-instant`. Users can type natural sentences like *"Find me cheap Tibetan food nearby"* and the AI instantly maps the intent directly into active database filters.
-- **🔐 Campus-Restricted Auth**: JWT-based user authentication that strictly verifies registrations ensuring only `@geu.ac.in` emails are permitted.
-- **🗺️ Live Map Data Pipeline**: Includes an integrated script (`fetch_cafes.js`) that queries OpenStreetMap's Overpass API to pull live geographic data and inject it straight into the database via the local JSON seeder.
-- **⚛️ Premium Frontend**: A reactive, modern user interface built using React, Vite, and highly interactive components powered by `lucide-react` icons.
+- **Geospatial Searching**: Uses MongoDB's powerful `2dsphere` indexes and `$near` queries to automatically find cafes within a configurable radius of the user's live GPS coordinates.
+- **AI Smart Search (Groq Integration)**: Integrated with the blazing-fast Groq API running `llama-3.1-8b-instant`. Users can type natural sentences like *"Find me cheap Tibetan food nearby"* and the AI instantly maps the intent directly into active database filters.
+- **Campus-Restricted Auth**: JWT-based user authentication that strictly verifies registrations ensuring only `@geu.ac.in` emails are permitted.
+- **Live Map Data Pipeline**: Includes an integrated script (`fetch_cafes.js`) that queries OpenStreetMap's Overpass API to pull live geographic data and inject it straight into the database via the local JSON seeder.
+- **Premium Frontend**: A reactive, modern user interface built using React, Vite, and highly interactive components powered by `lucide-react` icons.
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Frontend**: React.js, Vite, Tailwind CSS (assumed design system)
 - **Backend / API**: Node.js, Express.js
 - **Database**: MongoDB (Mongoose, GeoJSON support)
 - **AI Processing**: Groq SDK (LPU-native inference pipeline)
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js installed
@@ -77,4 +85,4 @@ npm run dev
 The React app will typically run on `http://localhost:5173` while the server API hums away on `http://localhost:3000`.
 
 ---
-*Built with ❤️ for GEU.*
+*Built with ❤️ by Kartik Garg.*
