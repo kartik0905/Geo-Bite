@@ -2,8 +2,8 @@
   {
     "name": "Sagar",
     "genre": "Cafe / Bakery",
-    "averageRating": 3.3,
-    "priceLevel": 2,
+    "averageRating": 4.2,
+    "priceLevel": 1,
     "location": {
       "type": "Point",
       "coordinates": [
@@ -15,8 +15,8 @@
   {
     "name": "Subba's corner",
     "genre": "tibetan",
-    "averageRating": 4.8,
-    "priceLevel": 3,
+    "averageRating": 5,
+    "priceLevel": 1,
     "location": {
       "type": "Point",
       "coordinates": [
@@ -26,10 +26,23 @@
     }
   },
   {
+    "name": "General Store",
+    "genre": "Cafe / Bakery",
+    "averageRating": 3.7,
+    "priceLevel": 1,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.9889727,
+        30.2751828
+      ]
+    }
+  },
+  {
     "name": "The Out Laws",
     "genre": "Cafe / Bakery",
-    "averageRating": 4.4,
-    "priceLevel": 2,
+    "averageRating": 4.5,
+    "priceLevel": 3,
     "location": {
       "type": "Point",
       "coordinates": [
@@ -41,8 +54,8 @@
   {
     "name": "Dana Pani",
     "genre": "Cafe / Bakery",
-    "averageRating": 4.2,
-    "priceLevel": 1,
+    "averageRating": 4.8,
+    "priceLevel": 3,
     "location": {
       "type": "Point",
       "coordinates": [
@@ -52,9 +65,22 @@
     }
   },
   {
+    "name": "Hotel The Golden oyster",
+    "genre": "Cafe / Bakery",
+    "averageRating": 3.9,
+    "priceLevel": 1,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.9997416,
+        30.2925635
+      ]
+    }
+  },
+  {
     "name": "Delhi Darbar",
     "genre": "Cafe / Bakery",
-    "averageRating": 4.7,
+    "averageRating": 4.9,
     "priceLevel": 2,
     "location": {
       "type": "Point",
@@ -67,8 +93,8 @@
   {
     "name": "Shiv fast food",
     "genre": "Cafe / Bakery",
-    "averageRating": 4.3,
-    "priceLevel": 3,
+    "averageRating": 5,
+    "priceLevel": 1,
     "location": {
       "type": "Point",
       "coordinates": [
@@ -80,13 +106,546 @@
   {
     "name": "Tuckshop agriculture",
     "genre": "Cafe / Bakery",
-    "averageRating": 3.3,
+    "averageRating": 4.6,
     "priceLevel": 2,
     "location": {
       "type": "Point",
       "coordinates": [
         78.0012259,
         30.2721617
+      ]
+    }
+  },
+  {
+    "name": "Green Lounge",
+    "genre": "regional",
+    "averageRating": 4.9,
+    "priceLevel": 3,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.9741054,
+        30.283996
+      ]
+    }
+  },
+  {
+    "name": "Local Eatery",
+    "genre": "Cafe / Bakery",
+    "averageRating": 4.1,
+    "priceLevel": 2,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.9722106,
+        30.27925
+      ]
+    }
+  },
+  {
+    "name": "Doon Chinese Lounge",
+    "genre": "Chinese",
+    "averageRating": 3.9,
+    "priceLevel": 1,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.98917437650319,
+        30.28249969294893
+      ]
+    }
+  },
+  {
+    "name": "Golden Beverages Restaurant",
+    "genre": "Beverages",
+    "averageRating": 5,
+    "priceLevel": 3,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.00642533426284,
+        30.276977134022612
+      ]
+    }
+  },
+  {
+    "name": "The Great Indian Eatery",
+    "genre": "Indian",
+    "averageRating": 3.4,
+    "priceLevel": 2,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.97421194383125,
+        30.275683898280697
+      ]
+    }
+  },
+  {
+    "name": "Desi Indian Delight",
+    "genre": "Indian",
+    "averageRating": 3.8,
+    "priceLevel": 1,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.99540815567735,
+        30.29399307407664
+      ]
+    }
+  },
+  {
+    "name": "Street Italian Diner",
+    "genre": "Italian",
+    "averageRating": 4.4,
+    "priceLevel": 1,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.97633948933367,
+        30.276183103292123
+      ]
+    }
+  },
+  {
+    "name": "Urban North Indian Delight",
+    "genre": "North Indian",
+    "averageRating": 3.1,
+    "priceLevel": 1,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.01864800910577,
+        30.283215217717814
+      ]
+    }
+  },
+  {
+    "name": "Street Continental Hub",
+    "genre": "Continental",
+    "averageRating": 4.2,
+    "priceLevel": 3,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.96945161360357,
+        30.2566109650945
+      ]
+    }
+  },
+  {
+    "name": "The Great Indian Eatery",
+    "genre": "Indian",
+    "averageRating": 3.9,
+    "priceLevel": 2,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.98884737668263,
+        30.29422086553486
+      ]
+    }
+  },
+  {
+    "name": "Spice Bakery Hub",
+    "genre": "Bakery",
+    "averageRating": 4.5,
+    "priceLevel": 2,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.98695361942717,
+        30.260378564198334
+      ]
+    }
+  },
+  {
+    "name": "Tasty Indian Lounge",
+    "genre": "Indian",
+    "averageRating": 3,
+    "priceLevel": 3,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.99610031659832,
+        30.25787146877222
+      ]
+    }
+  },
+  {
+    "name": "Street Indian Hub",
+    "genre": "Indian",
+    "averageRating": 3.2,
+    "priceLevel": 2,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.00726224254996,
+        30.271441925893328
+      ]
+    }
+  },
+  {
+    "name": "Street Cafe Restaurant",
+    "genre": "Cafe",
+    "averageRating": 3.3,
+    "priceLevel": 2,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.0022301301889,
+        30.248842178642114
+      ]
+    }
+  },
+  {
+    "name": "Spice North Indian Hub",
+    "genre": "North Indian",
+    "averageRating": 4.3,
+    "priceLevel": 2,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.99940514576942,
+        30.27208518162
+      ]
+    }
+  },
+  {
+    "name": "Street Bakery Cafe",
+    "genre": "Bakery",
+    "averageRating": 3.4,
+    "priceLevel": 3,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.0099082148758,
+        30.24584534609754
+      ]
+    }
+  },
+  {
+    "name": "Doon North Indian Diner",
+    "genre": "North Indian",
+    "averageRating": 4.5,
+    "priceLevel": 2,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.01920574235842,
+        30.26805419458637
+      ]
+    }
+  },
+  {
+    "name": "Spice Indian Delight",
+    "genre": "Indian",
+    "averageRating": 4.2,
+    "priceLevel": 1,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.99117682850199,
+        30.246149999637208
+      ]
+    }
+  },
+  {
+    "name": "The Great Italian Restaurant",
+    "genre": "Italian",
+    "averageRating": 4.1,
+    "priceLevel": 1,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.9981475576032,
+        30.274075325443814
+      ]
+    }
+  },
+  {
+    "name": "Urban Fast Food Cafe",
+    "genre": "Fast Food",
+    "averageRating": 3.6,
+    "priceLevel": 2,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.01749318790095,
+        30.260769383104627
+      ]
+    }
+  },
+  {
+    "name": "The Great Cafe Cafe",
+    "genre": "Cafe",
+    "averageRating": 3.5,
+    "priceLevel": 2,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.02228683449653,
+        30.27570704335637
+      ]
+    }
+  },
+  {
+    "name": "Mountain Italian Delight",
+    "genre": "Italian",
+    "averageRating": 4.1,
+    "priceLevel": 3,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.98191464204737,
+        30.246254139650368
+      ]
+    }
+  },
+  {
+    "name": "Mountain Cafe Delight",
+    "genre": "Cafe",
+    "averageRating": 3.6,
+    "priceLevel": 1,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.9967752192421,
+        30.2888700955505
+      ]
+    }
+  },
+  {
+    "name": "Mountain Continental Restaurant",
+    "genre": "Continental",
+    "averageRating": 3.2,
+    "priceLevel": 2,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.00648569662724,
+        30.29413788841126
+      ]
+    }
+  },
+  {
+    "name": "Doon South Indian Cafe",
+    "genre": "South Indian",
+    "averageRating": 3.1,
+    "priceLevel": 1,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.00016567928927,
+        30.283952220376374
+      ]
+    }
+  },
+  {
+    "name": "Urban Indian Cafe",
+    "genre": "Indian",
+    "averageRating": 4.6,
+    "priceLevel": 2,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.01926844988515,
+        30.291142137759163
+      ]
+    }
+  },
+  {
+    "name": "Doon Indian Delight",
+    "genre": "Indian",
+    "averageRating": 4.3,
+    "priceLevel": 3,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.9955247911513,
+        30.26692873532043
+      ]
+    }
+  },
+  {
+    "name": "Spice Italian Point",
+    "genre": "Italian",
+    "averageRating": 3.8,
+    "priceLevel": 1,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.97421526574264,
+        30.247442019106987
+      ]
+    }
+  },
+  {
+    "name": "Street Fast Food Cafe",
+    "genre": "Fast Food",
+    "averageRating": 4.1,
+    "priceLevel": 2,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.99553030419372,
+        30.246465161340883
+      ]
+    }
+  },
+  {
+    "name": "Doon Beverages Delight",
+    "genre": "Beverages",
+    "averageRating": 4.3,
+    "priceLevel": 2,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.97755892955294,
+        30.271507300468386
+      ]
+    }
+  },
+  {
+    "name": "Street Fast Food Point",
+    "genre": "Fast Food",
+    "averageRating": 3.3,
+    "priceLevel": 2,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.98440531426623,
+        30.242003387098826
+      ]
+    }
+  },
+  {
+    "name": "Mountain North Indian Delight",
+    "genre": "North Indian",
+    "averageRating": 4.7,
+    "priceLevel": 2,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.99720242514577,
+        30.271240844380163
+      ]
+    }
+  },
+  {
+    "name": "Spice Continental Lounge",
+    "genre": "Continental",
+    "averageRating": 4.9,
+    "priceLevel": 1,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.98660587243619,
+        30.25211430857223
+      ]
+    }
+  },
+  {
+    "name": "Golden South Indian Point",
+    "genre": "South Indian",
+    "averageRating": 4.9,
+    "priceLevel": 3,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.99040265699784,
+        30.294154741819295
+      ]
+    }
+  },
+  {
+    "name": "Urban Cafe Diner",
+    "genre": "Cafe",
+    "averageRating": 3.4,
+    "priceLevel": 2,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.99471373283023,
+        30.246471751002897
+      ]
+    }
+  },
+  {
+    "name": "Royal Italian Eatery",
+    "genre": "Italian",
+    "averageRating": 3.9,
+    "priceLevel": 3,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.00958067907847,
+        30.25468109515118
+      ]
+    }
+  },
+  {
+    "name": "Spice Beverages Restaurant",
+    "genre": "Beverages",
+    "averageRating": 3.5,
+    "priceLevel": 2,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.01724339216601,
+        30.25585061573811
+      ]
+    }
+  },
+  {
+    "name": "Urban Chinese Restaurant",
+    "genre": "Chinese",
+    "averageRating": 3.2,
+    "priceLevel": 2,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.99622714393966,
+        30.291597797722815
+      ]
+    }
+  },
+  {
+    "name": "Street South Indian Diner",
+    "genre": "South Indian",
+    "averageRating": 3.4,
+    "priceLevel": 3,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.9690912147014,
+        30.259280519154196
+      ]
+    }
+  },
+  {
+    "name": "Street Bakery Lounge",
+    "genre": "Bakery",
+    "averageRating": 4.7,
+    "priceLevel": 1,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.98433676341631,
+        30.28935008275874
+      ]
+    }
+  },
+  {
+    "name": "Desi North Indian Kitchen",
+    "genre": "North Indian",
+    "averageRating": 4.6,
+    "priceLevel": 1,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.9919917875578,
+        30.288791558647368
       ]
     }
   }
